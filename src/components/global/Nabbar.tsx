@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { MenuIcon } from 'lucide-react'
 
 
 type Props = {}
@@ -51,8 +52,8 @@ const Nabbar = async(props: Props) => {
             {true ? 'Dashboard' : 'Get Started'}
           </span>
         </Link>
-        {/* {user ? <UserButton afterSignOutUrl="/" /> : null}
-        <MenuIcon className="md:hidden" /> */}
+        {/* {user ? <UserButton afterSignOutUrl="/" /> : null} */}
+        <MenuIcon className="md:hidden" />
       </aside>
     </header>    
   )
